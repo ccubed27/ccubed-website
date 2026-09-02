@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>C Cubed Consulting | Careers. Credentials. Completion.</title>
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        C Cubed Consulting | Data-Driven Solutions
+    </title>
+
 
     <style>
 
@@ -14,9 +21,11 @@
             box-sizing: border-box;
         }
 
+
         html {
             scroll-behavior: smooth;
         }
+
 
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -25,7 +34,7 @@
             background: white;
         }
 
-        /* COLORS FROM C CUBED BRAND */
+
         :root {
             --navy: #06295a;
             --dark-navy: #031d42;
@@ -36,11 +45,12 @@
         }
 
 
+
         /* HEADER */
 
         header {
             background: white;
-            padding: 18px 8%;
+            padding: 12px 8%;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -50,30 +60,13 @@
             box-shadow: 0 2px 10px rgba(0,0,0,.08);
         }
 
-        .logo-area {
-            display: flex;
-            flex-direction: column;
+
+        .logo-image {
+            height: 82px;
+            width: auto;
+            display: block;
         }
 
-        .logo {
-            font-size: 26px;
-            font-weight: bold;
-            letter-spacing: 1px;
-            color: var(--navy);
-        }
-
-        .logo span {
-            color: var(--olive);
-        }
-
-        .tagline {
-            font-size: 11px;
-            letter-spacing: 2px;
-            margin-top: 2px;
-            font-weight: bold;
-            color: var(--olive);
-            text-transform: uppercase;
-        }
 
         nav a {
             text-decoration: none;
@@ -83,9 +76,11 @@
             font-size: 15px;
         }
 
+
         nav a:hover {
             color: var(--olive);
         }
+
 
 
         /* HERO */
@@ -95,17 +90,22 @@
             padding: 110px 8%;
             display: flex;
             align-items: center;
-            background: linear-gradient(
-                135deg,
-                var(--dark-navy),
-                var(--navy)
-            );
+
+            background:
+                linear-gradient(
+                    135deg,
+                    var(--dark-navy),
+                    var(--navy)
+                );
+
             color: white;
         }
+
 
         .hero-content {
             max-width: 850px;
         }
+
 
         .eyebrow {
             text-transform: uppercase;
@@ -116,15 +116,18 @@
             margin-bottom: 18px;
         }
 
+
         .hero h1 {
             font-size: 58px;
             line-height: 1.08;
             margin-bottom: 25px;
         }
 
+
         .hero h1 span {
             color: #cbd38b;
         }
+
 
         .hero p {
             font-size: 20px;
@@ -132,6 +135,10 @@
             color: #e9eef5;
             margin-bottom: 35px;
         }
+
+
+
+        /* BUTTONS */
 
         .button {
             display: inline-block;
@@ -146,9 +153,11 @@
             cursor: pointer;
         }
 
+
         .button:hover {
             opacity: .9;
         }
+
 
         .button-outline {
             background: transparent;
@@ -157,11 +166,13 @@
         }
 
 
+
         /* GENERAL SECTIONS */
 
         section {
             padding: 85px 8%;
         }
+
 
         .section-heading {
             text-align: center;
@@ -169,11 +180,13 @@
             margin: 0 auto 50px;
         }
 
+
         .section-heading h2 {
             font-size: 38px;
             color: var(--navy);
             margin-bottom: 14px;
         }
+
 
         .section-heading p {
             font-size: 18px;
@@ -181,11 +194,13 @@
         }
 
 
+
         /* OUR WORK */
 
         .services {
             background: var(--light);
         }
+
 
         .cards {
             display: grid;
@@ -195,6 +210,7 @@
             margin: auto;
         }
 
+
         .card {
             background: white;
             padding: 38px;
@@ -202,6 +218,7 @@
             box-shadow: 0 5px 20px rgba(0,0,0,.06);
             border-top: 5px solid var(--olive);
         }
+
 
         .card-number {
             width: 42px;
@@ -216,16 +233,19 @@
             margin-bottom: 18px;
         }
 
+
         .card h3 {
             color: var(--navy);
             margin-bottom: 13px;
             font-size: 22px;
         }
 
+
         .card p {
             color: var(--gray);
             margin-bottom: 14px;
         }
+
 
         .card-detail {
             font-size: 15px;
@@ -233,11 +253,13 @@
         }
 
 
+
         /* WHY IT WORKS */
 
         .why {
             background: white;
         }
+
 
         .why-grid {
             display: grid;
@@ -247,10 +269,12 @@
             margin: auto;
         }
 
+
         .why-item {
             text-align: center;
             padding: 25px;
         }
+
 
         .why-icon {
             width: 62px;
@@ -266,38 +290,46 @@
             font-weight: bold;
         }
 
+
         .why-item h3 {
             color: var(--navy);
             margin-bottom: 10px;
         }
+
 
         .why-item p {
             color: var(--gray);
         }
 
 
-        /* CHALLENGE */
+
+        /* CHALLENGE SECTION */
 
         .challenge {
-            background: linear-gradient(
-                90deg,
-                var(--olive),
-                #79852b
-            );
+            background:
+                linear-gradient(
+                    90deg,
+                    var(--olive),
+                    #79852b
+                );
+
             color: white;
             text-align: center;
             padding-top: 55px;
             padding-bottom: 55px;
         }
 
+
         .challenge h2 {
             font-size: 34px;
             margin-bottom: 15px;
         }
 
+
         .challenge h2 span {
             color: var(--gold);
         }
+
 
         .challenge p {
             max-width: 850px;
@@ -306,11 +338,13 @@
         }
 
 
+
         /* WHO WE ARE */
 
         .who-we-are {
             background: white;
         }
+
 
         .expertise {
             display: grid;
@@ -320,10 +354,12 @@
             margin: 40px auto 0;
         }
 
+
         .expertise-item {
             text-align: center;
             padding: 25px;
         }
+
 
         .expertise-circle {
             width: 70px;
@@ -335,14 +371,16 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 24px;
+            font-size: 22px;
             font-weight: bold;
         }
+
 
         .expertise-item h3 {
             font-size: 17px;
             color: var(--navy);
         }
+
 
 
         /* ABOUT */
@@ -351,11 +389,13 @@
             background: var(--light);
         }
 
+
         .about {
             max-width: 900px;
             margin: auto;
             text-align: center;
         }
+
 
         .about h2 {
             font-size: 38px;
@@ -363,10 +403,12 @@
             margin-bottom: 20px;
         }
 
+
         .about p {
             font-size: 18px;
             color: var(--gray);
         }
+
 
 
         /* CONTACT */
@@ -376,29 +418,35 @@
             color: white;
         }
 
+
         .contact-container {
             max-width: 850px;
             margin: auto;
         }
+
 
         .contact-heading {
             text-align: center;
             margin-bottom: 40px;
         }
 
+
         .contact-heading h2 {
             font-size: 40px;
             margin-bottom: 10px;
         }
 
+
         .contact-heading h2 span {
             color: var(--gold);
         }
+
 
         .contact-heading p {
             color: #d7e0ea;
             font-size: 18px;
         }
+
 
         .contact-info {
             text-align: center;
@@ -406,15 +454,18 @@
             font-size: 18px;
         }
 
+
         .contact-info a {
             color: var(--gold);
             text-decoration: none;
             font-weight: bold;
         }
 
+
         .contact-info a:hover {
             text-decoration: underline;
         }
+
 
 
         /* CONTACT FORM */
@@ -424,14 +475,17 @@
             margin: auto;
         }
 
+
         .form-row {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 18px;
         }
 
+
         .contact-form input,
         .contact-form textarea {
+
             width: 100%;
             padding: 14px;
             margin-bottom: 18px;
@@ -441,15 +495,18 @@
             font-family: inherit;
         }
 
+
         .contact-form textarea {
             height: 150px;
             resize: vertical;
         }
 
+
         .contact-form button {
             width: 100%;
             font-size: 16px;
         }
+
 
 
         /* FOOTER */
@@ -463,6 +520,7 @@
         }
 
 
+
         /* MOBILE */
 
         @media (max-width: 850px) {
@@ -471,30 +529,43 @@
                 font-size: 42px;
             }
 
+
             .cards,
             .why-grid,
             .expertise {
                 grid-template-columns: 1fr;
             }
 
+
             .form-row {
                 grid-template-columns: 1fr;
             }
+
 
             nav {
                 display: none;
             }
 
+
             .hero {
                 min-height: 540px;
             }
+
+
+            .logo-image {
+                height: 62px;
+            }
+
         }
 
     </style>
+
 </head>
 
 
+
 <body>
+
 
 
 <!-- HEADER -->
@@ -503,23 +574,37 @@
 
     <div class="logo-area">
 
-        <div class="logo">
-            C<span>³</span> CUBED CONSULTING
-        </div>
-
-        <div class="tagline">
-            Careers. Credentials. Completion.
-        </div>
+        <img
+            src="ccubed-logo.png"
+            alt="C Cubed Consulting"
+            class="logo-image"
+        >
 
     </div>
 
 
     <nav>
-        <a href="#home">Home</a>
-        <a href="#work">Our Work</a>
-        <a href="#why">Why It Works</a>
-        <a href="#team">Who We Are</a>
-        <a href="#contact">Contact</a>
+
+        <a href="#home">
+            Home
+        </a>
+
+        <a href="#work">
+            Our Work
+        </a>
+
+        <a href="#why">
+            Our Approach
+        </a>
+
+        <a href="#team">
+            Who We Are
+        </a>
+
+        <a href="#contact">
+            Contact
+        </a>
+
     </nav>
 
 </header>
@@ -532,28 +617,43 @@
 
     <div class="hero-content">
 
+
         <div class="eyebrow">
             C Cubed Consulting LLC
         </div>
 
+
         <h1>
             Turning Data Into
-            <span>Retention, Growth and Lasting Success.</span>
+            <span>
+                Retention, Growth and Lasting Success.
+            </span>
         </h1>
 
+
         <p>
-            We partner with institutions to identify where students are
-            being lost within programs—and deliver clear, actionable plans
-            to improve enrollment and completion.
+            We help organizations uncover challenges,
+            understand opportunities, and turn information
+            into clear, actionable strategies that support
+            stronger outcomes and sustainable growth.
         </p>
 
-        <a class="button" href="#work">
+
+        <a
+            class="button"
+            href="#work"
+        >
             Explore Our Work
         </a>
 
-        <a class="button button-outline" href="#contact">
+
+        <a
+            class="button button-outline"
+            href="#contact"
+        >
             Let's Talk
         </a>
+
 
     </div>
 
@@ -563,84 +663,238 @@
 
 <!-- OUR WORK -->
 
-<section class="services" id="work">
+<section
+    class="services"
+    id="work"
+>
+
 
     <div class="section-heading">
 
-        <h2>Our Work</h2>
+        <h2>
+            Our Work
+        </h2>
+
 
         <p>
-            We use data to uncover challenges, identify opportunities,
-            and develop practical strategies institutions can put into action.
+            We combine data analysis, research, stakeholder
+            feedback, and practical experience to help
+            organizations identify challenges and build
+            strategies for improvement.
         </p>
 
     </div>
 
 
+
     <div class="cards">
 
 
+
+        <!-- CARD 1 -->
+
         <div class="card">
 
-            <div class="card-number">1</div>
+            <div class="card-number">
+                1
+            </div>
 
-            <h3>Program Analysis</h3>
+
+            <h3>
+                Organizational Analysis
+            </h3>
+
 
             <p>
-                Identify where enrollment is breaking down within
-                specific programs.
+                Identify where performance,
+                recruitment, engagement, or
+                retention may be breaking down.
             </p>
 
+
             <div class="card-detail">
-                We analyze trends, bottlenecks, course pathways,
-                employability, and student outcomes to uncover
-                enrollment leaks.
+
+                We analyze trends, processes,
+                outcomes, and organizational data
+                to uncover barriers and opportunities
+                for improvement.
+
             </div>
 
         </div>
 
 
 
+        <!-- CARD 2 -->
+
         <div class="card">
 
-            <div class="card-number">2</div>
+            <div class="card-number">
+                2
+            </div>
 
-            <h3>Action Plans</h3>
+
+            <h3>
+                Recruitment & Retention
+            </h3>
+
 
             <p>
-                Turn insights into clear, step-by-step strategies.
+                Understand what attracts people
+                to your organization—and what
+                influences whether they stay.
             </p>
 
+
             <div class="card-detail">
-                You get practical, implementable plans your team
-                can use immediately to improve retention and
-                grow programs.
+
+                We examine recruitment strategies,
+                retention patterns, internal processes,
+                and stakeholder feedback to help
+                organizations strengthen their workforce
+                and reach.
+
             </div>
 
         </div>
 
 
 
+        <!-- CARD 3 -->
+
         <div class="card">
 
-            <div class="card-number">3</div>
+            <div class="card-number">
+                3
+            </div>
 
-            <h3>First-Year Experience</h3>
+
+            <h3>
+                Action Planning
+            </h3>
+
 
             <p>
-                Focus on the critical first 6–12 months—where
-                many students decide to stay or leave.
+                Turn findings into practical,
+                step-by-step strategies.
             </p>
 
+
             <div class="card-detail">
-                We evaluate entry-level courses, early engagement,
-                support touchpoints, and barriers that impact retention.
+
+                Our recommendations are designed
+                to be clear, realistic, measurable,
+                and ready for implementation.
+
+            </div>
+
+        </div>
+
+
+
+        <!-- CARD 4 -->
+
+        <div class="card">
+
+            <div class="card-number">
+                4
+            </div>
+
+
+            <h3>
+                Surveys & Data Analysis
+            </h3>
+
+
+            <p>
+                Gather meaningful feedback and
+                transform the results into useful
+                information.
+            </p>
+
+
+            <div class="card-detail">
+
+                We develop surveys, analyze
+                quantitative and qualitative data,
+                identify patterns, and communicate
+                findings clearly.
+
+            </div>
+
+        </div>
+
+
+
+        <!-- CARD 5 -->
+
+        <div class="card">
+
+            <div class="card-number">
+                5
+            </div>
+
+
+            <h3>
+                Public Perception
+            </h3>
+
+
+            <p>
+                Understand how your organization
+                is viewed by the people and
+                communities you serve.
+            </p>
+
+
+            <div class="card-detail">
+
+                We use surveys, feedback, and data
+                to identify perceptions, areas of
+                strength, and opportunities to
+                strengthen trust and engagement.
+
+            </div>
+
+        </div>
+
+
+
+        <!-- CARD 6 -->
+
+        <div class="card">
+
+            <div class="card-number">
+                6
+            </div>
+
+
+            <h3>
+                Strategy & Growth
+            </h3>
+
+
+            <p>
+                Use evidence to guide stronger
+                organizational decisions.
+            </p>
+
+
+            <div class="card-detail">
+
+                We help organizations identify
+                opportunities for growth, improve
+                communication, strengthen processes,
+                and focus resources where they can
+                have the greatest impact.
+
             </div>
 
         </div>
 
 
     </div>
+
 
 </section>
 
@@ -648,31 +902,46 @@
 
 <!-- WHY IT WORKS -->
 
-<section class="why" id="why">
+<section
+    class="why"
+    id="why"
+>
+
 
     <div class="section-heading">
 
-        <h2>Why It Works</h2>
+        <h2>
+            Our Approach
+        </h2>
+
 
         <p>
-            Our recommendations are grounded in evidence and focused
-            on the students and institutions we serve.
+            Good decisions start with good information.
+            Our work is designed to turn data and
+            feedback into practical action.
         </p>
 
     </div>
 
 
+
     <div class="why-grid">
+
 
 
         <div class="why-item">
 
-            <div class="why-icon">↗</div>
+            <div class="why-icon">
+                ↗
+            </div>
 
-            <h3>Data-Informed</h3>
+            <h3>
+                Data-Informed
+            </h3>
 
             <p>
-                We use your data to uncover the real barriers
+                We use evidence to uncover
+                real barriers, patterns,
                 and opportunities.
             </p>
 
@@ -682,13 +951,19 @@
 
         <div class="why-item">
 
-            <div class="why-icon">◎</div>
+            <div class="why-icon">
+                ◎
+            </div>
 
-            <h3>Equity-Centered</h3>
+            <h3>
+                Stakeholder-Focused
+            </h3>
 
             <p>
-                We build strategies that remove barriers and
-                create access for all students.
+                We listen to the people
+                inside and outside your
+                organization to understand
+                the full picture.
             </p>
 
         </div>
@@ -697,12 +972,18 @@
 
         <div class="why-item">
 
-            <div class="why-icon">✓</div>
+            <div class="why-icon">
+                ✓
+            </div>
 
-            <h3>Student-Focused</h3>
+            <h3>
+                Action-Oriented
+            </h3>
 
             <p>
-                We design smarter pathways to student success.
+                We turn findings into
+                practical strategies your
+                organization can actually use.
             </p>
 
         </div>
@@ -710,23 +991,35 @@
 
     </div>
 
+
 </section>
 
 
 
-<!-- ENROLLMENT CHALLENGE -->
+<!-- CHALLENGE -->
 
 <section class="challenge">
 
     <h2>
-        Today's Enrollment Challenge Demands a
-        <span>New Strategy.</span>
+
+        Today's Challenges Demand a
+
+        <span>
+            Smarter Strategy.
+        </span>
+
     </h2>
 
+
     <p>
-        Strong first-year experiences lead to stronger completion.
-        Institutions that identify and remove internal barriers
-        are better positioned to retain students and grow programs.
+
+        Changing expectations, workforce challenges,
+        public perception, and limited resources
+        make strong decision-making more important
+        than ever. C Cubed helps organizations
+        identify what is working, understand what
+        is not, and determine what to do next.
+
     </p>
 
 </section>
@@ -735,60 +1028,91 @@
 
 <!-- WHO WE ARE -->
 
-<section class="who-we-are" id="team">
+<section
+    class="who-we-are"
+    id="team"
+>
+
 
     <div class="section-heading">
 
-        <h2>Who We Are</h2>
+        <h2>
+            Who We Are
+        </h2>
+
 
         <p>
-            A team of faculty with proven success growing enrollment
-            and improving student pathways.
+            C Cubed brings together professionals
+            with diverse expertise in research,
+            data, education, public service,
+            technology, and organizational improvement.
         </p>
 
     </div>
 
 
+
     <div class="expertise">
 
 
+
         <div class="expertise-item">
 
-            <div class="expertise-circle">CJ</div>
+            <div class="expertise-circle">
+                CJ
+            </div>
 
-            <h3>Criminal Justice</h3>
+            <h3>
+                Criminal Justice
+            </h3>
 
         </div>
 
 
+
         <div class="expertise-item">
 
-            <div class="expertise-circle">E</div>
+            <div class="expertise-circle">
+                ENG
+            </div>
 
-            <h3>Engineering</h3>
+            <h3>
+                Engineering
+            </h3>
 
         </div>
 
 
+
         <div class="expertise-item">
 
-            <div class="expertise-circle">CS</div>
+            <div class="expertise-circle">
+                CS
+            </div>
 
-            <h3>Computer Science</h3>
+            <h3>
+                Computer Science
+            </h3>
 
         </div>
 
 
+
         <div class="expertise-item">
 
-            <div class="expertise-circle">M</div>
+            <div class="expertise-circle">
+                DATA
+            </div>
 
-            <h3>Mathematics Pathways</h3>
+            <h3>
+                Mathematics & Data Analysis
+            </h3>
 
         </div>
 
 
     </div>
+
 
 </section>
 
@@ -800,16 +1124,25 @@
 
     <div class="about">
 
-        <h2>Careers. Credentials. Completion.</h2>
+
+        <h2>
+            Decode Data. Drive Success.
+        </h2>
+
 
         <p>
-            C Cubed Consulting helps institutions move beyond simply
-            collecting data. We work with clients to understand what
-            the numbers are telling them, identify where students
-            are being lost, and develop practical solutions that
-            strengthen programs, improve retention, and support
-            long-term enrollment growth.
+
+            C Cubed Consulting helps organizations
+            move beyond simply collecting information.
+            We work with clients to understand what
+            their data is telling them, identify
+            meaningful patterns and challenges, and
+            develop practical solutions that strengthen
+            recruitment, retention, engagement,
+            performance, and long-term growth.
+
         </p>
+
 
     </div>
 
@@ -819,106 +1152,190 @@
 
 <!-- CONTACT -->
 
-<section class="contact" id="contact">
+<section
+    class="contact"
+    id="contact"
+>
+
 
     <div class="contact-container">
+
 
 
         <div class="contact-heading">
 
             <h2>
-                Decode Data.
-                <span>Drive Success.</span>
+
+                Let's Turn Insight Into
+
+                <span>
+                    Action.
+                </span>
+
             </h2>
 
+
             <p>
-                Partner with C Cubed Consulting to strengthen programs,
-                improve retention, and create meaningful enrollment growth.
+
+                Have a challenge you'd like
+                to better understand?
+                We'd love to talk about how
+                C Cubed Consulting can help.
+
             </p>
 
         </div>
 
-        
 
 
         <div class="contact-info">
 
-            <p>
-                Email:
-                <a href="mailto:ccubed27@gmail.com">
-                    ccubed27@gmail.com
-                </a>
-            </p>
 
             <p>
-                Phone:
-                <a href="tel:2175499072">
-                    (217) 549-9072
+
+                Email:
+
+                <a href="mailto:ccubed27@gmail.com">
+
+                    ccubed27@gmail.com
+
                 </a>
+
             </p>
+
+
+
+            <p>
+
+                Phone:
+
+                <a href="tel:2175499072">
+
+                    (217) 549-9072
+
+                </a>
+
+            </p>
+
 
         </div>
+
 
 
         <!-- CONTACT FORM -->
 
         <form
+
             class="contact-form"
+
             action="https://formsubmit.co/ccubed27@gmail.com"
+
             method="POST"
+
         >
+
+
 
             <div class="form-row">
 
-                <input
-                    type="text"
-                    name="name"
-                    placeholder="Your Name"
-                    required
-                >
 
                 <input
-                    type="email"
-                    name="email"
-                    placeholder="Your Email"
+
+                    type="text"
+
+                    name="name"
+
+                    placeholder="Your Name"
+
                     required
+
                 >
+
+
+
+                <input
+
+                    type="email"
+
+                    name="email"
+
+                    placeholder="Your Email"
+
+                    required
+
+                >
+
 
             </div>
 
 
+
             <input
+
                 type="text"
+
                 name="organization"
+
                 placeholder="Organization"
+
             >
+
 
 
             <textarea
+
                 name="message"
+
                 placeholder="How can we help?"
+
                 required
+
             ></textarea>
 
 
+
             <input
+
                 type="hidden"
+
                 name="_subject"
+
                 value="New C Cubed Website Inquiry"
+
             >
+
+
+
+            <input
+
+                type="hidden"
+
+                name="_captcha"
+
+                value="false"
+
+            >
+
 
 
             <button
+
                 class="button"
+
                 type="submit"
+
             >
+
                 Send Message
+
             </button>
 
 
         </form>
 
+
     </div>
+
 
 </section>
 
@@ -927,10 +1344,12 @@
 <footer>
 
     © 2026 C Cubed Consulting LLC.
-    Careers. Credentials. Completion.
+    All rights reserved.
 
 </footer>
 
 
+
 </body>
+
 </html>
